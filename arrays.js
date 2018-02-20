@@ -28,9 +28,6 @@ function destructivelyRemoveElementFromBeginningOfArray(choc) {
   return choc;
 }
 
-var results = destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
-console.log(results);
-
 function removeElementFromBeginningOfArray(choc){
   return choc.slice(1);
 }
