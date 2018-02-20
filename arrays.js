@@ -37,21 +37,9 @@ function destructivelyRemoveElementFromEndOfArray(choc){
   return choc;
 }
 
-var results = destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
-console.log(results);
-
 
 function removeElementFromEndOfArray(choc) {
   return choc.slice(0, choc.length - 1);
 }
-
-
-// addElementToBeginningOfArray(chocolateBars, "milkyway");
-
-// destructivelyAddElementToBeginningOfArray(chocolateBars, "milkyway");
-
-// addElementToEndOfArray(chocolateBars, "kisses");
-
-// destructivelyAddElementToEndOfArray(chocolateBars, "kisses");
 
 
